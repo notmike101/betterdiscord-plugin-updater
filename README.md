@@ -1,4 +1,4 @@
-# BetterDiscord Plugin updater
+# BetterDiscord Plugin Updater
 
 > Library to assist in updating BetterDiscord plugins automatically
 
