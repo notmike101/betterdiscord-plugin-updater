@@ -7,7 +7,7 @@
   ],
   "homepage": "https://github.com/notmike101/betterdiscord-plugin-updater",
   "bugs": "https://github.com/notmike101/betterdiscord-plugin-updater/issues",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "author": "Mike Orozco (https://mikeorozco.dev)",
   "files": [
     "dist/index.js",
