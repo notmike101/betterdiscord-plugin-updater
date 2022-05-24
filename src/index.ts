@@ -1,6 +1,5 @@
 import semver from 'semver';
 import { Plugins, showToast } from 'betterdiscord/bdapi';
-import { version } from '../package.json';
 
 export interface UpdaterInterface {
   isUpdateAvailable(): Promise<boolean>;
@@ -59,7 +58,7 @@ export class Updater implements UpdaterInterface {
   }
 
   private log(...message: string[]): void {
-    console.log(`%c[PluginUpdater]%c (${version})%c ${message.join(' ')}`, 'color: lightblue;', 'color: gray', 'color: white');
+    console.log(`%c[PluginUpdater]%c (${process.env.VERSION})%c ${message.join(' ')}`, 'color: lightblue;', 'color: gray', 'color: white');
   }
 
   private dismissNotice(): void {
