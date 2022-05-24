@@ -5,6 +5,17 @@
   "keywords": [
     "betterdiscord"
   ],
+  "homepage": "https://github.com/notmike101/betterdiscord-plugin-updater",
+  "bugs": "https://github.com/notmike101/betterdiscord-plugin-updater/issues",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "author": "Mike Orozco (https://mikeorozco.dev)",
+  "files": [
+    "dist/index.js",
+    "dist/index.esm.js",
+    "LICENSE.md",
+    "README.md"
+  ],
+  "repository": "github:notmike101/betterdiscord-plugin-updater",
   "main": "dist/index.js",
   "exports": {
     ".": {
@@ -19,17 +30,13 @@
   "scripts": {
     "build": "node scripts/build.mjs"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
+    "@types/bandagedbd__bdapi": "^0.3.4",
     "@types/node": "^17.0.35",
     "@types/semver": "^7.3.9",
     "esbuild": "^0.14.39",
     "esbuild-plugin-d.ts": "^1.1.0",
+    "semver": "^7.3.7",
     "typescript": "^4.6.4"
-  },
-  "dependencies": {
-    "@types/bandagedbd__bdapi": "^0.3.4",
-    "semver": "^7.3.7"
   }
 }
