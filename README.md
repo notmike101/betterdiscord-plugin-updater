@@ -2,6 +2,8 @@
 
 > Library to assist in updating BetterDiscord plugins automatically
 
+[![NPM](https://nodei.co/npm/betterdiscord-plugin-updater.png)](https://nodei.co/npm/betterdiscord-plugin-updater/)
+
 ## Install
 
 ```
