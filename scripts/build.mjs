@@ -7,7 +7,10 @@ const packageJson = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
 const config = {
   entryPoints: ['./src/index.ts'],
   bundle: true,
-  external: ['betterdiscord'],
+  external: [
+    'betterdiscord',
+    'betterdiscord-plugin-updater',
+  ],
   sourcemap: true,
   plugins: [dtsPlugin()],
   define: {
