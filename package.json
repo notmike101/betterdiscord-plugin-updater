@@ -30,9 +30,9 @@
   "scripts": {
     "build": "node scripts/build.mjs"
   },
-  "peerDependencies": {
-    "betterdiscord-plugin-banners": "^1.0.0"
-  },
+  "bundleDependencies": [
+    "betterdiscord-plugin-banners"
+  ],
   "dependencies": {
     "betterdiscord-plugin-banners": "^1.0.0"
   },

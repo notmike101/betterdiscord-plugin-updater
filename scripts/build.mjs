@@ -9,7 +9,6 @@ const config = {
   bundle: true,
   external: [
     'betterdiscord',
-    'betterdiscord-plugin-updater',
   ],
   sourcemap: true,
   plugins: [dtsPlugin()],
