@@ -1,5 +1,11 @@
 # BetterDiscord Plugin Updater
 
+# NOTICE
+
+This library is deprecated in favor of [betterdiscord-plugin-libs](https://www.npmjs.com/package/betterdiscord-plugin-libs).
+
+---
+
 > Library to assist in updating BetterDiscord plugins automatically
 
 [![NPM](https://nodei.co/npm/betterdiscord-plugin-updater.png)](https://nodei.co/npm/betterdiscord-plugin-updater/)
